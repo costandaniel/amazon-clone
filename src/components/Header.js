@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
+import '../CSS/Header.css';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 function Header() {
