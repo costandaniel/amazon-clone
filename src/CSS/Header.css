@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.header__searchInput:focus {
+    outline: 0;
+}
+
 .header__optionLineOne {
     font-size: 10px;
 }
@@ -42,6 +46,16 @@
 .header__optionLineTwo {
     font-size: 13px;
     font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin: 0px 10px;
 }
 
 .header__nav {
